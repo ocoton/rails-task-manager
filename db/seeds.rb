@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 10.times do
   Task.create!(
-    details: Faker::Coffee.blend_name,
+    details: Faker::GreekPhilosophers.quote.blend_name,
     title: Faker::Quote.famous_last_words
   )
 end
